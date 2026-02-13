@@ -1,7 +1,7 @@
-import type { IconType } from '@react-icons/lib/index'
+// import type { IconType } from '@react-icons/lib/index'
 
 interface TookBoxProps {
-    icon: IconType,
+    icon: any,
     name: string
 }
 
