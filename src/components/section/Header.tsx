@@ -13,14 +13,14 @@ export default function Header({}: HeaderProps) {
             <Link href="/" className="left-0">
               <h1 className="text-2xl font-bold flex items-center gap-2 cursor-pointer group">
                 <span className="transition-all duration-300 group-hover:scale-105">
-                  DevToolKit
+                  DevsToolKit
                 </span>
               </h1>
             </Link>
             <nav className="flex space-x-2 right-0">
               {[
                 { name: <FaTools />, link: "/", onNewTab: "_self" },
-                { name: <FaGithub />, link: "https://github.com/sbshobhit/devtoolkit", onNewTab: "_blank" },
+                { name: <FaGithub />, link: "https://github.com/sbshobhit/devstoolkit", onNewTab: "_blank" },
               ].map((item, idx) => (
                 <Link
                   key={idx}
